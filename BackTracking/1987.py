@@ -18,7 +18,7 @@ def recur(row, col, last):
     if row>0:
         # if data[row-1][col] not in alpa: 
         # alpa에 새로운 문자 넣어주는 식으로 알고리즘 짜면 시간초과남..
-        if alpa[ord(data[row-1][col])-65] == False:
+        if alpa[ord(data[row-1][col])-65] == False: # 상
             alpa[ord(data[row-1][col])-65] = True
             recur(row-1, col, ord(data[row-1][col])-65)
     if row<row_len-1:
