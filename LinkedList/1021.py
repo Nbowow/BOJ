@@ -1,11 +1,10 @@
-#회전하는 큐
+# 회전하는 큐
+# 풀긴 풀었지만 맘에 들지 않는 풀이,,,
 import sys
-from collections import deque
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
 data = list(map(int, input().split()))
-# num = [i for i in range(N)]
 ans = 0
 while len(data) != 0:
     a = data[0]-1
