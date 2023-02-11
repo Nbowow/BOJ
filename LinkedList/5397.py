@@ -20,6 +20,3 @@ for _ in range(num):
         else:
             left.append(case[i])
     print("".join(left) + "".join(reversed(right)))
-
-
-            
